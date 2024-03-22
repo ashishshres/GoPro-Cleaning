@@ -42,6 +42,11 @@
   grid-row: 1/2;
 }
 
+.contact .container a {
+  color: #000;
+  text-decoration: none;
+}
+
 #second {
   width: 100%;
 }

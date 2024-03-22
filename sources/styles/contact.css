@@ -1,0 +1,177 @@
+.contact-image {
+  width: 100%;
+  height: calc(100vh - 350px);
+  background-image: url("../../assets/images/img4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact-image::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(124, 120, 114, 0.4);
+  position: absolute;
+}
+
+/* .contact-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+} */
+
+.contact .container {
+  padding: 5vmin 20vmin;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 3vmin;
+}
+
+.contact .container #first {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.contact .container #second {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#second {
+  width: 100%;
+}
+
+.elem {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7vmin;
+}
+
+.elem .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vmin;
+}
+
+#second h2 {
+  font-size: 5vmin;
+  text-align: right;
+}
+
+#first {
+  font-size: 3vmin;
+}
+
+.row-heading {
+  font-weight: 600;
+}
+
+form button {
+  align-self: flex-end;
+}
+
+form button {
+  padding: 1.75vmin 5vmin;
+  background-color: transparent;
+  border: 2px solid #777;
+  color: #605e5e;
+}
+
+form button:hover {
+  border: 2px solid #bdb3e7;
+  background-color: #bdb3e7;
+  color: #000;
+}
+/* form {
+  text-align: right;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vmin;
+} */
+
+/* .contact {
+  height: calc(100vh - 78px);
+  padding: 7vmin 40vmin;
+  display: flex;
+  align-items: center;
+  gap: 7vmin;
+}
+
+.address {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3vmin;
+  color: #2f2e2e;
+  font-size: 3.2vmin;
+  font-weight: 200;
+}
+
+.contact .address .row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5vmin;
+}
+
+.form h2 {
+  font-size: 5vmin;
+  align-self: flex-end;
+}
+
+.form {
+  text-align: right;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vmin;
+}
+
+.form form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vmin;
+}
+
+form button {
+  align-self: flex-end;
+  padding: 1.75vmin 5vmin;
+  background-color: #8999d0;
+  border: none;
+  color: #fff;
+}
+
+form input,
+textarea {
+  font-size: 2vmin;
+  padding: 1vmin;
+}
+
+.row-heading {
+  font-weight: 600;
+}
+
+.row a {
+  color: #333;
+} */

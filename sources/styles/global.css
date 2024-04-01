@@ -128,6 +128,13 @@ textarea {
 }
 
 @media screen and (max-width: 1024px) {
+  .home-testimonial .card {
+    text-align: center;
+    padding: 5vmin;
+    background-color: #edf0f0;
+    height: 100%;
+  }
+
   .contact .container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -157,6 +164,18 @@ textarea {
 
   .contact #second h2 {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-testimonial {
+    flex-wrap: wrap;
+  }
+  .details {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
   }
 }
 

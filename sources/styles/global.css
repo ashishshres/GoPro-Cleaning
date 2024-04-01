@@ -127,6 +127,39 @@ textarea {
   display: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .contact .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 3vmin;
+  }
+  .contact .container {
+    padding: 10vmin;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15vmin;
+  }
+  .contact .container #first {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .contact .container #second {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+  }
+
+  .contact #second h2 {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .ri-menu-line {
     display: block;

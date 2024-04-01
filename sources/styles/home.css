@@ -164,7 +164,10 @@
 }
 
 .home-talk {
-  padding: 7vmin 45vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vmin 0vmin;
 }
 
 .home-talk .logo {

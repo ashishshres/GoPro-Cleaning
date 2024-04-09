@@ -1,261 +1,273 @@
 .service-image {
-  height: calc(100vh - 350px);
-  background-image: url("../../assets/images/img1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 7vmin;
-  position: relative;
+    height: calc(100vh - 350px);
+    background-image: url("../../assets/images/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    position: relative;
 }
 
 .service-image span {
-  z-index: 1;
+    z-index: 1;
 }
 
 .service-image::after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  background-color: rgba(124, 120, 114, 0.4);
-  position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(124, 120, 114, 0.4);
+    position: absolute;
 }
 
 .service-summary h1 {
-  padding-top: 5vmin;
-  text-align: center;
+    padding-top: 5vmin;
+    text-align: center;
 }
 
 .service-summary .container {
-  padding: 5vmin 10vmin;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
-  gap: 7vmin;
+    padding: 5vmin 10vmin;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 7vmin;
 }
 
 .service-summary .container #first {
-  grid-column: 1/2;
-  grid-row: 1/2;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 .service-summary .container #second {
-  grid-column: 2/3;
-  grid-row: 1/2;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 .service-summary .container #third {
-  grid-column: 1/2;
-  grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 .service-summary .container #four {
-  grid-column: 2/3;
-  grid-row: 2/3;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 .service-summary .container .elem > div {
-  display: flex;
-  align-items: center;
-  padding-bottom: 5vmin;
-  gap: 2vmin;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5vmin;
+    gap: 2vmin;
 }
 
 .service-summary .container .image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cleaning {
-  padding-top: 5vmin;
+    padding-top: 5vmin;
 }
 .cleaning .container {
-  padding: 5vmin 10vmin;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
-  align-items: center;
-  gap: 7vmin;
+    padding: 5vmin 10vmin;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 7vmin;
 }
 
 .cleaning #first {
-  grid-column: 1/2;
-  grid-row: 1/2;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 .cleaning #second {
-  height: 100%;
-  width: 100%;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  background-image: url("../../assets/images/Magnolia.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    height: 100%;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url("../../assets/images/Magnolia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .cleaning > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .cleaning #first {
-  display: flex;
-  flex-direction: column;
-  gap: 2vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
 }
 
 .cleaning #first button {
-  align-self: flex-end;
+    align-self: flex-end;
 }
 
 .cleaning #first button {
-  padding: 1.75vmin 5vmin;
-  background-color: transparent;
-  border: 2px solid #777;
-  color: #605e5e;
+    padding: 1.75vmin 5vmin;
+    background-color: transparent;
+    border: 2px solid #777;
+    color: #605e5e;
 }
 
 .cleaning #first button:hover {
-  border: 2px solid #bdb3e7;
-  background-color: #bdb3e7;
-  color: #000;
+    border: 2px solid #bdb3e7;
+    background-color: #bdb3e7;
+    color: #000;
 }
 
 .lists {
-  display: flex;
-  justify-content: center;
-  gap: 10vmin;
+    display: flex;
+    justify-content: center;
+    gap: 10vmin;
 }
 
 .others {
-  padding-top: 10vmin;
+    padding-top: 10vmin;
 }
 
 .others-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding-bottom: 5vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5vmin;
 }
 
 .carpet h1 {
-  padding-top: 5vmin;
-  padding-bottom: 5vmin;
-  text-align: center;
+    padding-top: 5vmin;
+    padding-bottom: 5vmin;
+    text-align: center;
 }
 
 .window h1 {
-  padding-top: 10vmin;
-  text-align: center;
+    padding-top: 10vmin;
+    text-align: center;
 }
 
 .carpet .container {
-  padding: 0 10vmin;
-  min-height: 50vmin;
-  display: flex;
-  justify-content: center;
-  gap: 3vmin;
+    padding: 0 10vmin;
+    min-height: 50vmin;
+    display: flex;
+    justify-content: center;
+    gap: 3vmin;
 }
 
 .carpet .container #second {
-  width: 50%;
-  height: 50vh;
+    width: 50%;
+    height: 50vh;
 }
 
 .carpet .container #first {
-  width: 50%;
-  height: 50vh;
+    width: 50%;
+    height: 50vh;
 }
 
 .carpet .container #second img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .carpet .container #first img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .window h1 {
-  text-align: center;
-  padding-bottom: 5vmin;
+    text-align: center;
+    padding-bottom: 5vmin;
 }
 
 .window p {
-  font-size: 2.3vmin;
+    font-size: 2.3vmin;
 }
 
 .window {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .window .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vmin;
 }
 .window .container img {
-  padding-top: 5vmin;
+    padding-top: 5vmin;
 }
 
 .window .container div {
-  width: 80vmin;
+    width: 80vmin;
 }
 
 .super {
-  padding: 5vmin 15vmin;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
-  align-items: center;
-  gap: 10vmin;
+    padding: 5vmin 15vmin;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 10vmin;
 }
 
 .super .left {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  display: flex;
-  gap: 3vmin;
-  flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    gap: 3vmin;
+    flex-direction: column;
 }
 
 .super .left button {
-  align-self: flex-start;
+    align-self: flex-start;
 }
 
 .super .left button {
-  padding: 1.75vmin 5vmin;
-  background-color: transparent;
-  border: 2px solid #777;
-  color: #605e5e;
+    padding: 1.75vmin 5vmin;
+    background-color: transparent;
+    border: 2px solid #777;
+    color: #605e5e;
 }
 
 .super .left button:hover {
-  border: 2px solid #bdb3e7;
-  background-color: #bdb3e7;
-  color: #000;
+    border: 2px solid #bdb3e7;
+    background-color: #bdb3e7;
+    color: #000;
 }
 
 .super .right {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  display: flex;
-  gap: 2vmin;
-  flex-direction: column;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    gap: 2vmin;
+    flex-direction: column;
+}
+
+.carpet .container div {
+    overflow: hidden;
+}
+
+.carpet .container img {
+    transition: all 0.3s ease-in-out;
+}
+
+.carpet .container img:hover {
+    transform: scale(1.15);
 }

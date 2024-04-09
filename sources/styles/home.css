@@ -1,220 +1,228 @@
 .home-image {
-  height: calc(100vh - 70px);
+    height: calc(100vh - 70px);
 }
 
 .home-image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .home-services h1 {
-  text-align: center;
-  padding-top: 5vmin;
+    text-align: center;
+    padding-top: 5vmin;
 }
 
 .home-services .container {
-  padding: 5vmin 10vmin;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
-  gap: 10vmin;
-  text-align: center;
+    padding: 5vmin 10vmin;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 10vmin;
+    text-align: center;
 }
 
 .home-services .container #first {
-  grid-column: 1/2;
-  grid-row: 1/2;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 .home-services .container #second {
-  grid-column: 2/3;
-  grid-row: 1/2;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 .home-services .container #third {
-  grid-column: 1/2;
-  grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 .home-services .container #four {
-  grid-column: 2/3;
-  grid-row: 2/3;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 .home-services .container .elem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2vmin;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmin;
+    flex-direction: column;
 }
 
 .home-services .container .image {
-  height: 20vmin;
-  width: 20vmin;
+    height: 20vmin;
+    width: 20vmin;
 }
 
 .home-about {
-  margin: 10vmin 0;
-  background-color: #e4e1ff;
+    margin: 10vmin 0;
+    background-color: #e4e1ff;
 }
 
 .home-about .container {
-  padding: 5vmin 10vmin;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
-  gap: 10vmin;
+    padding: 5vmin 10vmin;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 10vmin;
 }
 
 .home-about .container #first {
-  grid-column: 1/2;
-  grid-row: 1/2;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 .home-about .container #second {
-  grid-column: 2/3;
-  grid-row: 1/2;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 .home-about .container #third {
-  grid-column: 1/2;
-  grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 .home-services .container #four {
-  grid-column: 2/3;
-  grid-row: 2/3;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 .home-about h1 {
-  text-align: center;
-  padding-top: 5vmin;
+    text-align: center;
+    padding-top: 5vmin;
 }
 
 .home-about .container > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  gap: 2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vmin;
 }
 
 .home-about .image {
-  height: 15vmin;
-  width: 15vmin;
+    height: 15vmin;
+    width: 15vmin;
 }
 
 .home-about .container img {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .home-services button {
-  padding: 1.75vmin 5vmin;
-  background-color: transparent;
-  border: 2px solid #777;
-  color: #605e5e;
+    padding: 1.75vmin 5vmin;
+    background-color: transparent;
+    border: 2px solid #777;
+    color: #605e5e;
 }
 
 .home-services button:hover {
-  border: 2px solid #bdb3e7;
-  background-color: #bdb3e7;
-  color: #000;
+    border: 2px solid #bdb3e7;
+    background-color: #bdb3e7;
+    color: #000;
 }
 
 .home-services .container img {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .home-featured-image {
-  height: 75vmin;
+    height: 75vmin;
 }
 
 .home-featured-image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .card h2 {
-  color: #605e5e;
+    color: #605e5e;
 }
 
 .home-testimonial {
-  margin-top: 7vmin;
-  display: flex;
-  gap: 2vmin;
+    margin-top: 7vmin;
+    display: flex;
+    gap: 2vmin;
 }
 
 .home-testimonial .card {
-  text-align: center;
-  padding: 10vmin;
-  background-color: #edf0f0;
+    text-align: center;
+    padding: 10vmin;
+    background-color: #edf0f0;
 }
 
 .home-testimonial .card h2 {
-  margin-bottom: 5vmin;
+    margin-bottom: 5vmin;
 }
 
 .home-testimonial .card p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .home-talk {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5vmin 0vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vmin 0vmin;
 }
 
 .home-talk .logo {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 4vmin;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4vmin;
 }
 
 .home-talk h2 {
-  font-size: 6vmin;
+    font-size: 6vmin;
 }
 
 .details {
-  padding-top: 5vmin;
-  display: flex;
-  align-items: last baseline;
-  gap: 25vmin;
+    padding-top: 5vmin;
+    display: flex;
+    align-items: last baseline;
+    gap: 25vmin;
 }
 
 .address span {
-  display: block;
-  line-height: 5vmin;
-  font-size: 3vmin;
+    display: block;
+    line-height: 5vmin;
+    font-size: 3vmin;
 }
 
 .details button {
-  background-color: #f16876;
-  border: none;
-  color: #fff;
+    background-color: #f16876;
+    border: none;
+    color: #fff;
 }
 
 .details button:hover {
-  background-color: #f8b2b9;
-  color: #000;
+    background-color: #f8b2b9;
+    color: #000;
 }
 
 footer {
-  color: #333;
-  font-size: 2.5vmin;
-  background-color: #f0f0f0;
-  border-top: 2px solid #a0a09f;
-  padding: 5vmin 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    color: #333;
+    font-size: 2.5vmin;
+    background-color: #f0f0f0;
+    border-top: 2px solid #a0a09f;
+    padding: 5vmin 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .rights a {
-  color: #000;
+    color: #000;
+}
+
+.quote .call {
+    background-color: rgb(54, 189, 54);
+}
+
+.quote .call:hover {
+    background-color: lightgreen;
 }

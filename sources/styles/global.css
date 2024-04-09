@@ -484,8 +484,13 @@ textarea {
 }
 
 @media screen and (max-width: 325px) {
+    .contact .container {
+        max-width: 100%;
+    }
+
     form {
         padding: 0 10%;
+        max-width: 100%;
     }
     footer {
         padding: 5vmin;

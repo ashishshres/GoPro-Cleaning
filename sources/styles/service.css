@@ -96,6 +96,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 1.5vmin;
 }
 
 .cleaning > div {
@@ -135,7 +136,7 @@
 }
 
 .others {
-    padding-top: 10vmin;
+    padding: 10vmin 0;
 }
 
 .others-title {
@@ -147,8 +148,7 @@
 }
 
 .carpet h1 {
-    padding-top: 5vmin;
-    padding-bottom: 5vmin;
+    padding: 10vmin 0;
     text-align: center;
 }
 
@@ -262,6 +262,7 @@
 
 .carpet .container div {
     overflow: hidden;
+    border-radius: 1.5vmin;
 }
 
 .carpet .container img {

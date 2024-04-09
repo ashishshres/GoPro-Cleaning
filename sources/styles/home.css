@@ -6,11 +6,12 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 0 0 50px 50px;
 }
 
 .home-services h1 {
     text-align: center;
-    padding-top: 5vmin;
+    padding-top: 15vmin;
 }
 
 .home-services .container {
@@ -56,6 +57,7 @@
 
 .home-about {
     margin: 10vmin 0;
+    padding: 5vmin 0 10vmin 0;
     background-color: #e4e1ff;
 }
 
@@ -130,6 +132,7 @@
 
 .home-featured-image {
     height: 75vmin;
+    margin: 15vmin 0;
 }
 
 .home-featured-image img {
@@ -147,12 +150,15 @@
     margin-top: 7vmin;
     display: flex;
     gap: 2vmin;
+    padding: 0 3vmin;
 }
 
 .home-testimonial .card {
     text-align: center;
+    border: 1px solid #cbcbcb;
     padding: 10vmin;
     background-color: #edf0f0;
+    border-radius: 2vmin;
 }
 
 .home-testimonial .card h2 {

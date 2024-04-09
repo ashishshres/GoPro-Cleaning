@@ -155,6 +155,11 @@ textarea {
 }
 
 @media screen and (max-width: 1024px) {
+    .quote {
+        display: flex;
+        gap: 0.75rem;
+        flex-direction: column;
+    }
     .home-testimonial .card {
         text-align: center;
         padding: 5vmin;
@@ -475,5 +480,22 @@ textarea {
     .service-summary .container .elem > div img {
         height: 100%;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    form {
+        padding: 0 10%;
+    }
+    footer {
+        padding: 5vmin;
+    }
+    .contact .container #first,
+    #second {
+        font-size: 1rem;
+    }
+
+    .contact #second h2 {
+        font-size: 1.75rem;
     }
 }

@@ -250,8 +250,8 @@ form {
 
     .home-services .container {
         text-align: center;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(autofit, 1, 1fr);
+        grid-template-rows: repeat(autofit, 4, 1fr);
     }
 
     .home-services .container #first {
@@ -410,11 +410,10 @@ form {
 
     .contact .container {
         padding: 10vmin;
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         gap: 15vmin;
     }
+
     .contact .container #first {
         grid-column: 1/2;
         grid-row: 1/2;
@@ -474,29 +473,5 @@ form {
     .service-summary .container .elem > div img {
         height: 100%;
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 325px) {
-    .contact .container {
-        max-width: 100%;
-    }
-
-    form {
-        padding: 0 10%;
-        /* max-width: 100%; */
-    }
-
-    footer {
-        padding: 5vmin;
-    }
-
-    .contact .container #first,
-    #second {
-        font-size: 1rem;
-    }
-
-    .contact #second h2 {
-        font-size: 1.75rem;
     }
 }

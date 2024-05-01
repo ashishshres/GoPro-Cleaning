@@ -73,11 +73,12 @@
 .cleaning {
     padding-top: 5vmin;
 }
+
 .cleaning .container {
     padding: 5vmin 10vmin;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: minmax(300px, auto);
     justify-items: center;
     align-items: center;
     gap: 7vmin;
@@ -96,7 +97,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 1.5vmin;
+}
+
+.elem .title {
+    font-size: 1.25rem;
+    color: #313131;
+    font-weight: 600;
 }
 
 .cleaning > div {
@@ -119,14 +125,14 @@
 .cleaning #first button {
     padding: 1.75vmin 5vmin;
     background-color: transparent;
-    border: 2px solid #777;
+    border: 1px solid #777;
     color: #605e5e;
 }
 
 .cleaning #first button:hover {
-    border: 2px solid #bdb3e7;
-    background-color: #bdb3e7;
-    color: #000;
+    border: 1px solid #644ec0;
+    background-color: #644ec0;
+    color: #fff;
 }
 
 .lists {
@@ -139,6 +145,11 @@
     padding: 10vmin 0;
 }
 
+.detail {
+    text-align: center;
+    padding: 2rem 4rem;
+}
+
 .others-title {
     display: flex;
     align-items: center;
@@ -148,7 +159,7 @@
 }
 
 .carpet h1 {
-    padding: 10vmin 0;
+    padding: 3vmin 0;
     text-align: center;
 }
 
@@ -242,14 +253,14 @@
 .super .left button {
     padding: 1.75vmin 5vmin;
     background-color: transparent;
-    border: 2px solid #777;
+    border: 1px solid #777;
     color: #605e5e;
 }
 
 .super .left button:hover {
-    border: 2px solid #bdb3e7;
-    background-color: #bdb3e7;
-    color: #000;
+    border: 1px solid #644ec0;
+    background-color: #644ec0;
+    color: #fff;
 }
 
 .super .right {
@@ -262,7 +273,7 @@
 
 .carpet .container div {
     overflow: hidden;
-    border-radius: 1.5vmin;
+    /* border-radius: 1.5vmin; */
 }
 
 .carpet .container img {

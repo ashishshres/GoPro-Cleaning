@@ -83,12 +83,12 @@ form button {
 form button {
     padding: 1.75vmin 5vmin;
     background-color: transparent;
-    border: 2px solid #777;
+    border: 1px solid #777;
     color: #605e5e;
 }
 
 form button:hover {
-    border: 2px solid #bdb3e7;
-    background-color: #bdb3e7;
-    color: #000;
+    border: 1px solid #644ec0;
+    background-color: #644ec0;
+    color: #fff;
 }

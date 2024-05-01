@@ -1,12 +1,30 @@
-.home-image {
+/* .home-image {
     height: calc(100vh - 70px);
+} */
+
+/* #carouselExampleCaptions {
+    height: calc(100vh - 70px);
+} */
+
+/* .carousel-inner {
+    height: 100%;
+    width: 100%;
+} */
+
+.carousel-item img {
+    height: calc(100vh - 70px);
+    object-fit: cover;
 }
 
-.home-image img {
+/* .home-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 0 0 50px 50px;
+} */
+
+.d-none {
+    display: block !important;
 }
 
 .home-services h1 {
@@ -115,14 +133,14 @@
 .home-services button {
     padding: 1.75vmin 5vmin;
     background-color: transparent;
-    border: 2px solid #777;
+    border: 1px solid #777;
     color: #605e5e;
 }
 
 .home-services button:hover {
-    border: 2px solid #bdb3e7;
-    background-color: #bdb3e7;
-    color: #000;
+    border: 1px solid #644ec0;
+    background-color: #644ec0;
+    color: #fff;
 }
 
 .home-services .container img {

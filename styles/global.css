@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+    --btn-bg: #032893;
+    --round: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Inter", sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header .section1 {
+    background: linear-gradient(0deg, #eff0f5 0%, #eff0f5 100%), #d9d9d9;
+    padding: 15px 25px;
+}
+
+.header .section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.header .section2 .pages {
+    display: flex;
+    gap: 25px;
+}
+
+.header .section2 .pages a {
+    text-decoration: none;
+}
+
+.header .section2 .btn button {
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: var(--round);
+    border: 2px solid var(--btn-bg);
+    background: #fff;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #eff0f5;
+    padding: 0 25px;
+}
+
+.footer h2 {
+    font-size: 2rem;
+}
+
+.footer .container {
+    padding: 75px 0;
+    display: flex;
+    gap: 75px;
+}
+
+.footer .container .section1 {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer .container .section2,
+.footer .container .section3 {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer input,
+select {
+    padding: 7px;
+}
+
+.footer .section4 {
+    border-top: 1px solid #555;
+    padding: 25px;
+    text-align: center;
+}
+
+.call {
+    height: 75px;
+    width: 75px;
+    padding: 10px;
+    background-color: #032893;
+    border-radius: 50%;
+    margin: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call img {
+    height: 50px;
+    width: 50px;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .header .section1 span {
+        display: block;
+    }
+
+    .header .section2 {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .header .section2 .btn {
+        width: 100%;
+    }
+
+    .header .section2 .btn button {
+        width: 100%;
+    }
+
+    .footer .container {
+        flex-wrap: wrap;
+    }
+}

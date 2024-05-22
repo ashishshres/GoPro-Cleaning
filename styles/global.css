@@ -20,6 +20,20 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 50px;
+}
+
 .header .section1 {
     background: linear-gradient(0deg, #eff0f5 0%, #eff0f5 100%), #d9d9d9;
     padding: 15px 25px;
@@ -47,6 +61,16 @@ body {
     border-radius: var(--round);
     border: 2px solid var(--btn-bg);
     background: #fff;
+}
+
+.header a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+.header a:hover {
+    color: #0035d5;
 }
 
 .footer {
@@ -93,6 +117,16 @@ select {
     text-align: center;
 }
 
+.footer a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer a:hover {
+    color: #0035d5;
+}
+
 .call {
     height: 75px;
     width: 75px;
@@ -106,6 +140,12 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.call:hover {
+    background-color: #0035d5 !important;
 }
 
 .call img {
@@ -115,6 +155,13 @@ select {
 
 button {
     cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+button:hover {
+    background-color: #0035d5 !important;
+    color: #fff;
+    border: 2px solid #0035d5 !important;
 }
 
 @media (max-width: 600px) {
